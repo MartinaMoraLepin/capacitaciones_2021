@@ -71,7 +71,7 @@ while True:
         action=np.array([-0.44,0.0])
 
     if key==ord('D'):
-        action=np.array([0.10,-0.8])
+        action=np.array([0.10,-0.8]) 
 
     # Se ejecuta la acción definida anteriormente y se retorna la observación (obs),
     # la evaluación (reward), etc
