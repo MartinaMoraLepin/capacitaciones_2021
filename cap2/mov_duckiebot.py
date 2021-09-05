@@ -64,13 +64,13 @@ while True:
         action = np.array([0.44, 0.0])
 
     ### AGREGAR MÁS COMPORTAMIENTOS ###
-    if key==ord('A'):
+    if key==ord('a'):
         action=np.array([0.10,0.8])
     
-    if key==ord('S'):
+    if key==ord('s'):
         action=np.array([-0.44,0.0])
 
-    if key==ord('D'):
+    if key==ord('d'):
         action=np.array([0.10,-0.8]) 
 
     # Se ejecuta la acción definida anteriormente y se retorna la observación (obs),
