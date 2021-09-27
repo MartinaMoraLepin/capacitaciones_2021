@@ -63,7 +63,7 @@ if __name__ == '__main__':
     lower_yellow = np.array([15, 80, 100])  #en este orden porque es en BGR si es posible filtrar el verde lo importante es que se vea el pato
     upper_yellow = np.array([40, 255, 255])
     min_area = 2500
- #use los valores de colores visto en las clases de consulta
+
     while True:
 
         # Captura la tecla que está siendo apretada y almacena su valor en key
